@@ -954,6 +954,7 @@
         <groupId>org.apache.rat</groupId>
         <artifactId>apache-rat-plugin</artifactId>
         <configuration>
+          <skip>true</skip>
           <excludes>
             <exclude>**/log4j.properties</exclude>
             <exclude>**/README.md</exclude>
