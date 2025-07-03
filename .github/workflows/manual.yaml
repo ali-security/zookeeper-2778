@@ -53,7 +53,7 @@ jobs:
       with:
         java-version: 11
     - name: Cache local maven repository
-      uses: actions/cache@v2
+      uses: seal-integrations/cache@v2
       with:
         path: |
           ~/.m2/repository/
